@@ -24,7 +24,7 @@
     "build": "scripts/build.js",
     "prepublishOnly": "npm run build",
     "eslint-check": "eslint --max-warnings=0 .",
-    "prettier-check": "prettier --check .",
+    "prettier-check": "prettier --check ./src/index.ts",
     "type-check": "tsc --noEmit",
     "precommit": "lint-staged",
     "prepare": "husky install"
